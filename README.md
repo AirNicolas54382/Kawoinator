@@ -46,17 +46,22 @@ Instead of simply brewing coffee, the machine "corrupts" it. The user interacts 
 
 ## ⚙️ Installation & Execution
 
-To run this evil invention locally, you need the **Java Development Kit (JDK)** and **IntelliJ IDEA**.
+To run this evil invention locally, you need the Java Development Kit (JDK) and IntelliJ IDEA.
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/AirNicolas54382/Kawoinator
-    ```
-2.  Launch **IntelliJ IDEA**.
-3.  Open the downloaded project folder.
-4.  Navigate to the `src` folder in the Project Explorer.
-5.  Right-click the main class file and select **▶ Run**.
-6.  *Note: Make sure your speakers are turned on to experience the full Doofenshmirtz effect.*
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AirNicolas54382/Kawoinator
+   ```
+2. Launch **IntelliJ IDEA**.
+3. Open the downloaded project folder.
+4. **Configure GUI Library:** Expand the `lib` folder in the Project Explorer, right-click `forms_rt.jar`, and select **Add as Library...** to resolve missing UI components.
+5. **Prevent UI Compilation Errors:** 
+   * Navigate to **File -> Settings -> Editor -> GUI Designer**.
+   * Change *Generate GUI into:* from *Binary .class files* to **Java source code**.
+   * Apply changes and navigate to **Build -> Rebuild Project** to clear any duplicate method errors.
+6. Navigate to the `src` folder in the Project Explorer.
+7. Right-click the main class file and select ▶ **Run**.
+8. *Note: Make sure your speakers are turned on to experience the full Doofenshmirtz effect.*
 <img width="1910" height="1040" alt="Kawa_6" src="https://github.com/user-attachments/assets/e4434389-893d-47dc-aad8-41e778dd055a" />
 
 ---
